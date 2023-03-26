@@ -46,7 +46,7 @@ public class MainActivity extends AppCompatActivity
         textView.setText("00:30");
         seekBar.setProgress(30);
         seekBar.setEnabled(true);
-        button.setText("GO");
+        button.setText("START");
         countDownTimer.cancel();
         counterIsActive=false;
     }
